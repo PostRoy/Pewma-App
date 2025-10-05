@@ -37,6 +37,7 @@ Esta app viene como proyecto de ingeniería de software para la universidad Dieg
   ```
 
   <img width="400"  alt="image" src="https://github.com/user-attachments/assets/7749f11b-77d6-48fe-856f-9a86f63b2023" />
+  
   Debe salir algo como esto, para ver la app hay 3 opciones
   - Web (No recomendado): No tiene mensajes de error, ni popups para parte de la funcionalidad. 
   - iOS (Recomendado): Probado en iOS 18 y 26, en iPhone 13 pro y 14, en los dos funcional, con leves detalles gráficos.
