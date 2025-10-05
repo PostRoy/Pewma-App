@@ -2,7 +2,7 @@
 Esta app viene como proyecto de ingeniería de software para la universidad Diego Portales (Chile)
 
   ## Cómo compilar la aplicación
-  
+  Se probó en Ubuntu 24.04 LTS
   ### Actualizar librerías
   ```bash
   apt update  
