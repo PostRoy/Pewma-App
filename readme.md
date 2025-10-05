@@ -36,11 +36,39 @@ Esta app viene como proyecto de ingeniería de software para la universidad Dieg
   npx expo start
   ```
 
+  
+
 
   ## Troubleshoot
+  ### Problemas al instalar Expo
   lucide-react-native tiene problemas, al ser una versión mas vieja, requiere paquetes más viejos, los que chocan y entorpecen el proyecto
   la mejor solución es actualizar el paquete a su ultima versión para hacerlo compatible y volver a correrlo
   
-  ```
+  ```bash
   npm install lucide-react-native@latest --save
   ```
+  ### Problemas expo-go iOS
+  Expo-GO en iOS solo es compatible con la última versión disponible, por lo que para correrlo necesitamos actualizar el sdk
+
+  ```bash
+  npm install expo@^54.0.0
+  ```
+  Lo que al mismo tiempo nos lleva a otro error ya que las librerías quedan una/unas versión más atrás, esto lo solucioné con bun
+  ```bash
+  sudo apt update
+  sudo apt install -y unzip curl
+  ```
+
+  ```bash
+  curl -fsSL https://bun.sh/install | bash
+  # cierra y abre la terminal o carga bun en esta sesión:
+  export PATH="$HOME/.bun/bin:$PATH"
+  bun -v   # debe mostrar la versión
+  ```
+  ```bash
+  npx expo install
+  ```
+
+  <img width="643" height="84" alt="image" src="https://github.com/user-attachments/assets/613256c1-8f36-40d2-9bf2-f2fca810c088" />
+  @rofernweh
+
