@@ -36,8 +36,12 @@ Esta app viene como proyecto de ingeniería de software para la universidad Dieg
   npx expo start
   ```
 
-  
-
+  <img width="400"  alt="image" src="https://github.com/user-attachments/assets/7749f11b-77d6-48fe-856f-9a86f63b2023" />
+  Debe salir algo como esto, para ver la app hay 3 opciones
+  - Web (No recomendado): No tiene mensajes de error, ni popups para parte de la funcionalidad. 
+  - iOS (Recomendado): Probado en iOS 18 y 26, en iPhone 13 pro y 14, en los dos funcional, con leves detalles gráficos.
+  - Android:
+    
 
   ## Troubleshoot
   ### Problemas al instalar Expo
@@ -68,7 +72,20 @@ Esta app viene como proyecto de ingeniería de software para la universidad Dieg
   ```bash
   npx expo install
   ```
+  ### Problema Incompatible react versions
+  ```bash
+  npx expo install expo@^54.0.0 --fix
+  ```
+  ### Problema _lruCache constructor 
+  ```bash
+  rm -rf node_modules
+  ```
+  y correr denuevo.
 
   <img width="643" height="84" alt="image" src="https://github.com/user-attachments/assets/613256c1-8f36-40d2-9bf2-f2fca810c088" />
   @rofernweh
+
+  ## Problemas conocidos: 
+
+
 
