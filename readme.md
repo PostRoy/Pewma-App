@@ -353,9 +353,9 @@ const completeOnboarding = useCallback(async (data: OnboardingData) => {
 
 ---
 
-## 🎨 Personalización
+##  Personalización
 
-### 🎨 Colores y Temas
+###  Colores y Temas
 
 * **Archivo:** `constants/colors.ts`
 * Modifica aquí la paleta de colores y gradientes usados en toda la aplicación.
