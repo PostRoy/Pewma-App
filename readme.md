@@ -87,8 +87,6 @@ Esta app viene como proyecto de ingeniería de software para la universidad Dieg
   @rofernweh
 
 ---
-
-````markdown
 #  Guía de Desarrollo - Pewma
 
 Esta guía explica la estructura principal del código de la aplicación **Pewma** y dónde realizar las modificaciones más comunes.
